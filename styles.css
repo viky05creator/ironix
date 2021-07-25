@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+body  {
+    background-color: red;
+    width: 100vw;
+    height: 100;
+}
+
+.titolo {
+     width: 100%;
+     height: 100%;
+     display:flex;
+     align-items: center;
+     background-color: violet;
+     padding-left: 40px;
+     justify-content: space-around;
+}
+
+h1{
+    width: 70%;
+    text-align: left;
+    font-size: xx-large;
+    color: teal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.menu{
+    width: 100%;
+    height: 100%;
+    background-color: turquoise;
+    padding: 20px;
+    display: flex;
+    flex-direction: initial;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+button{
+    width: 90px;
+    height: 50px;
+    background-color: lightcoral;
+    border: 5px solid paleturquoise;
+    border-radius: 30px;
+}
+
+.centrobasso{
+    width: 100%;
+    height: 70%;
+    padding: 25px;
+}
+
+/* img 1 */
+.logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+/* img2 */
+.articolo {
+    width: 75%;
+    margin-left: 12.5%;
+}
+
+.sotto-titolo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+h2{
+    color: rebeccapurple;
+    font-size: 6rem;
+}
+
+p{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
